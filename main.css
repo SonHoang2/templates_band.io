@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear {
+    clear: both;
+}
+.text-white{
+    color: white !important;
+}
+.row{
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.col-third{
+    width: 33.33333%;
+}
+.col-half{
+    width: 50%;
+}
+.col-full{
+    width: 100%;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.mt-8{
+    margin-top: 8px !important;
+}
+/* table & mobile */
+@media (max-width: 63.9375em){
+    .item-information .Buy-Tickets{
+        padding: 15px 16px;
+    }
+    .contact-form .form-control{
+        padding: 14px;
+    }
+    .contact-button{
+        padding: 15px 16px;
+    }
+    .socials-list a{
+        margin: 0px 8px;
+        font-size: 30px;
+        padding: 7px;
+    }
+    .copyright a {
+        padding: 15px 0px;
+        display: inline-block;
+    }
+}
+/* Mobile */
+@media (max-width: 46.25em) {
+    #header {
+        overflow: hidden;
+    }
+    .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: white;
+        margin: 9px 46px;
+    }
+    #nav li a {
+        margin: 1px 20px;
+    }
+    #content .member-item {
+        width: 100%;
+    }
+    #content .place-item{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .s-col-full{
+        width: 100%;
+    }
+    .s-email-mt8{
+        margin-top: 8px;
+    }
+}

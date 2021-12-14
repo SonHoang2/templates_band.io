@@ -1,0 +1,144 @@
+#content .content-section{
+    width: 800px;
+    max-width: 100%;
+    margin: auto;
+    padding: 64px 16px;
+}
+#content .section-heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin: 10px 0px;
+}
+#content .section-sub-heading{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 60%;
+    margin: 15px 0px;
+}
+#content .about-text{
+    text-align: justify;
+    margin: 15px 0px;
+    line-height: 1.5;
+}
+#content .members-list{
+    margin: 32px 0px;
+    text-align: center;
+}
+#content .name{
+    margin: 15px 0px;
+}
+#content .member-img {
+    margin-bottom: 16px;
+    width: 60%;
+    border-radius: 4px;
+}
+.tour-section{
+    background-color: black;
+}
+.tickets-list{
+    background-color: white;
+    margin-top: 40px;
+}
+.tickets-list li {
+    padding: 8px 16px;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+    list-style: none;
+}
+.tickets-list .sold-out{
+    background-color: #f44336;
+    color: white;
+    padding: 0px 8px;
+    margin-left: 16px;
+}
+.tickets-list .quantity{
+    float: right;
+    width: 24.7px;
+    height: 22.5px;
+    background-color: black;
+    padding: 0px 8px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 22.5px;
+    margin-top: -2px;
+    margin-right: 16px;
+}
+.places-list{
+    padding-top: 32px;
+    padding-bottom: 48px;
+    font-size: 15px;
+}
+.img-place{
+    width: 100%;
+    display: block;
+}
+.img-place:hover{
+    opacity: 60%;
+}
+.item-information{
+    padding: 0.15px 16px;
+    background-color: white;
+}
+.item-information p{
+    margin: 15px 0px;
+}
+.item-information .city{
+    font-weight: 600;
+}
+.item-information .date{
+    opacity: 50%;
+}
+.item-information .Buy-Tickets{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.item-information .Buy-Tickets:hover{
+    background-color: #ccc;
+    color: black;
+}
+.contact-content{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.contact-info{
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.contact-info i{
+    width: 30px;
+    display: inline-block;
+}
+.contact-form .form-control{
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+.form-control{
+    width: 100%;
+}
+.contact-button{
+    font-size: 15px;
+    padding: 8px 16px;
+    margin: 16px 0px;
+    color: white;
+    background-color: black;
+    float: right;
+    cursor: pointer;
+    border: none;
+}
+.contact-button:hover{
+    color: black;
+    background-color: #ccc;
+}
+.img-map-section{
+    width: 100%;
+}

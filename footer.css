@@ -1,0 +1,21 @@
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.6;
+}
+.socials-list a{
+    text-decoration: none;
+    color: black;
+}
+.socials-list a:hover{
+    opacity: 0.6;
+}
+.copyright{
+    display: inline-block;
+    margin: 15px 0px;
+    font-size: 15px;
+}
+.copyright a{
+    color: black;
+}

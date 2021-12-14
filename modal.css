@@ -1,0 +1,93 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.modal.open{
+    display: flex;
+}
+.modal-container{
+    position: relative;
+    background-color: white;
+    width: 900px;
+    max-width: calc(100% - 32px);
+    min-height: 200px;
+    animation: modalAppear ease 0.5s;
+}
+.modal-header{
+    display: flex;
+    background-color: #009688;
+    color: white;
+    padding: 32px 16px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+.modal-close{
+    position: absolute;
+    top: 0;
+    right:0;
+    padding: 8px 16px;
+    color: white;
+    cursor: pointer;
+}
+.modal-close:hover{
+    color: black;
+    background-color: #ccc;
+}
+.modal-heading-icon{
+    margin-right: 16px;
+}
+.modal-body{
+    display: block;
+    margin: 15px;
+}
+.modal-body label{
+    display: block;
+    margin: 15px 0px;
+}
+.modal-input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.buy-tickets{
+    margin: 16px 0px;
+    padding: 16px;
+    display: block;
+    width: 100%;
+    background-color: #009688;
+    color: white;
+    margin: 16px 0px;
+    padding: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.buy-tickets:hover{
+    color:#000;
+    background-color: #ccc;
+}
+.modal-footer{
+    margin: 15px 16px;
+    float: right;
+}
+.modal-footer a{
+    color: #2196F3;
+}
+@keyframes modalAppear{
+    from{
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

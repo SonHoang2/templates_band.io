@@ -1,0 +1,88 @@
+#header{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: 46px;
+}
+#nav{
+    display: inline-block;
+}
+#nav .subnav li {
+    display: block;
+}
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav > li > a{
+    color: white;
+    text-transform: uppercase;
+}
+#nav li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    margin: 0px 20px;
+}
+#nav .subnav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    min-width: 160px;
+}
+#header li:hover {
+    background-color:#ccc;
+}
+#nav .subnav a {
+    margin: 0px 12px;
+    line-height: 38px;
+    color: rgb(0, 0, 0);
+}
+#nav li:hover .subnav {
+    display: block;
+}
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+#header .mobile-menu-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+#header .mobile-menu-btn,
+#header .search-btn{
+    float: right;
+}
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+}
+#header .mobile-menu-btn:hover .menu-icon{
+    color: #000;
+}
+#header .search-btn:hover{
+    cursor: pointer;
+    background-color: #f44336;
+}
+#header .menu-icon,
+#header .search-icon{
+    color: white;
+    font-size: 20px;
+    line-height: 46px;
+    margin: 0px 24px;
+}
+
+
+
+
+
+
+
+
+
